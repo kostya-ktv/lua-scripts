@@ -1,2 +1,2 @@
-# Подписаться на каналы customers и users
+# subscribe on 2 channels
 redis-cli subscribe customers users

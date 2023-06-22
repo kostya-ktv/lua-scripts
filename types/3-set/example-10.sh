@@ -5,5 +5,5 @@ redis-cli flushall
 redis-cli sadd numbers one two three five four
 redis-cli sadd numbers2 four five six seven
 
-# Получить общие элементы которые присутствуют в двух писках
+# get shared elements
 redis-cli sinter numbers numbers2

@@ -1,2 +1,2 @@
-# Отправить в канал customers сообщение
+# send message to channel customers
 redis-cli publish customers "Hello customers"

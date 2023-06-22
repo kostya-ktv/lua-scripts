@@ -1,5 +1,5 @@
 
 redis-cli sadd numbers one two three
 
-# Получить длину списка
+# get random item
 redis-cli srandmember numbers

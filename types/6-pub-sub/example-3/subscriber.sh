@@ -1,2 +1,2 @@
-# Подписаться на каналы c*
+# subscribe with pattern
 redis-cli psubscribe c*

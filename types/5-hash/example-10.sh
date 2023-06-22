@@ -1,12 +1,9 @@
-# Очистим предыдущие значения
 redis-cli flushall
 
-# Добавляем в хеш один элемент
 redis-cli hset user name "John Doe"
 
-# Добавляем в хеш один элемент
 redis-cli hset user age 36
 
-# Устанавливаем значение если оно не существует
+# if not exists then set
 redis-cli hsetnx user name "Chuck Norris"
 # (integer) 0
